@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 .navbar-sec
 {
@@ -278,18 +279,66 @@ padding: 20px;
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-left: 207px;
+    margin-top: 36px;
+    width: 80%;
+   
 }
 .product-grid ul li a img{
-    width: 300px;
-    height: 100%;
+    width:  100%;
 }
 .product-grid ul li
 {
     margin: 9px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     border: 3px solid rgb(110, 110, 110);
 }
+.product-grid
+{
+     margin: auto;
+}
+/*customer*/
+.customer-pannel
+{
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.082);
+    padding:5px 0;
+}
+.customer-pannel-text h1{
+    text-transform: capitalize;
+    font-family: 'roboto',sans-serif;
+}
+.customer-pannel-text p{
+    font-family: 'roboto',sans-serif;
+    width: 50%;
+    font-size: 15px;
+    color:  rgb(110, 110, 110);
+    margin-top: 15px;
+}
+.customer-pannel-text ul
+{
+    display: flex;
+    list-style: none;
+    margin: 0 10px;
+}
+.customer-pannel-text ul li{
+    width: 22%;
+    text-transform: capitalize;
+}
+.customer-pannel-text ul li span{
+    color: rgba(0, 0, 255, 0.644);
+    font-weight: 800;
+}
+.customer-pannel-text-image img
+{
+    width: 250px;
+    position: absolute;
+    right: 150px;
+    margin-top: -207px;
+}
+
 
 @media screen and (max-width:600px){
     .han
