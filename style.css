@@ -11,6 +11,7 @@
     padding: 10px 0px 0px;
     position: fixed;
     box-shadow: 1px 5px 20px rgba(7, 7, 7, 0.164) ;
+    transition: 2s;
 }
 .black{
     background-color: rgb(139, 136, 136);
