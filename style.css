@@ -14,6 +14,7 @@
 }
 .black{
     background-color: rgb(139, 136, 136);
+    transition: 2s;
 }
 nav{
     width: 80%;
@@ -226,6 +227,50 @@ padding: 20px;
     text-transform: capitalize;
     font-family: 'roboto',sans-serif;
     font-size: 15px;
+}
+
+/*recent-product section*/
+.recent-product-button ul
+{  
+    width: 40%;
+    margin-top: 20px !important;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+.recent-product-button ul li{
+    padding: 20px;
+    text-align: center !important;
+    border-right: 2px solid #000;
+}
+.formal
+{
+    border-right:initial !important;
+}
+.recent-product-button ul li a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'roboto',sans-serif;
+    font-size: 15px;
+    
+}
+.recent-product h1{
+    text-align: center;
+    font-family: 'roboto',sans-serif;
+    text-transform: uppercase;
+}
+.recent-product p{
+    margin-top: 20px !important;
+    text-align: center;
+    word-spacing: 5px;
+    width: 70%;
+    margin: auto;
+    color: rgb(105, 105, 105);
+    
 }
 
 
