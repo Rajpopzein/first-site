@@ -33,6 +33,7 @@ nav{
     text-decoration: none;
     text-transform: uppercase;
     flex: 1;
+    font-family: 'roboto',sans-serif;
 }
 .han
 { 
@@ -92,11 +93,15 @@ nav{
 .content-header
 {
     text-transform: uppercase;
-    width:370px;
+    width:400px;
     font-size: 29px;
     font-family: 'Roboto', sans-serif;
     word-spacing: 5px;
     margin:12px 9px;
+}
+.brand-name
+{
+    color: #000 !important;
 }
 .content-header span{
     color: blue;
@@ -186,6 +191,45 @@ padding: 20px;
     left: -65px;
     top: -56px;
 }
+.production-detail
+{
+    width: 45%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    position: absolute;
+    top: 884px;
+    
+}
+.production-detail h1{
+    font-family: 'roboto',sans-serif;
+    text-transform: uppercase;
+}
+.production-detail p{
+    margin-top: 20px;
+    font-family: 'roboto',sans-serif;
+    color: rgb(105, 105, 105);
+}
+.readmore
+{
+    margin-top: 40px;
+    
+}
+.readmore a{
+    text-decoration: none;
+    border: 2px solid rgb(66, 66, 66);
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 255, 0.644);;
+    text-transform: capitalize;
+    font-family: 'roboto',sans-serif;
+    font-size: 15px;
+}
+
+
+
 
 @media screen and (max-width:600px){
     .han
