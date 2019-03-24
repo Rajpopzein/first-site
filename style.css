@@ -273,9 +273,23 @@ padding: 20px;
     color: rgb(105, 105, 105);
     
 }
-
-
-
+.product-grid ul
+{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.product-grid ul li a img{
+    width: 300px;
+    height: 100%;
+}
+.product-grid ul li
+{
+    margin: 9px;
+    overflow: hidden;
+    border: 3px solid rgb(110, 110, 110);
+}
 
 @media screen and (max-width:600px){
     .han
