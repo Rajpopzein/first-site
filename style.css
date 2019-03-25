@@ -234,20 +234,24 @@ padding: 20px;
 /*recent-product section*/
 .recent-product-button ul
 {  
-    width: 40%;
+    width: 30%;
     margin-top: 20px !important;
     display: flex;
     justify-content: center;
+    align-content: center;
     list-style: none;
     margin: auto;
     border: 2px solid #000;
     border-radius: 20px;
+    flex: 1;
 }
 .recent-product-button ul li{
-    padding: 20px;
+    padding: 10px;
     text-align: center !important;
     border-right: 2px solid #000;
+    padding: auto;
 }
+
 .formal
 {
     border-right:initial !important;
@@ -258,6 +262,8 @@ padding: 20px;
     text-transform: uppercase;
     font-family: 'roboto',sans-serif;
     font-size: 15px;
+    text-align: center !important;
+    
     
 }
 .recent-product h1{
@@ -274,15 +280,21 @@ padding: 20px;
     color: rgb(105, 105, 105);
     
 }
+
 .product-grid ul
 {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    margin-left: 207px;
+    justify-content: center;
+    align-content: center;
     margin-top: 36px;
     width: 80%;
+    margin: 0 auto;
    
+}
+.product-grid ul li:hover{
+    box-shadow: 1px 5px 20px rgba(7, 7, 7, 0.164) ;
 }
 .product-grid ul li a img{
     width:  100%;
@@ -340,6 +352,64 @@ padding: 20px;
 }
 
 
+/*latest-news*/
+.latest-news
+{
+    width: 100%;
+}
+.latest-news h1
+{
+    text-transform: uppercase;
+    font-family: 'roboto',sans-serif;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+.latest-news p{
+    text-transform: capitalize;
+    font-family: 'roboto',sans-serif;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color:  rgb(110, 110, 110);
+}
+.news-grid ul
+{
+    display: flex;
+    list-style: none;
+    margin: auto;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.news-grid ul li
+{
+    position: relative;
+    margin: 20px;
+    width: 250px;
+    height: 260px;
+    border: 2px solid rgba(110, 110, 110, 0.219);
+}
+.news-grid ul li .latest-image
+{
+    border-bottom: 2px solid  rgb(110, 110, 110);
+    height: 58%;
+}
+.news-grid ul li a{
+    text-decoration: none;
+    color:  rgb(110, 110, 110);
+}
+.news-grid ul li .latest-image img{
+    width: 100%;
+    height: 100%;
+}
+.latest-text{
+    padding: 8px;
+}
+.latest-text p{
+    width: 100%;
+    text-align: left;
+
+}
 @media screen and (max-width:600px){
     .han
     {
