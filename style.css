@@ -499,8 +499,19 @@ padding: 20px;
  text-transform: uppercase;
  font-family: 'roboto',sans-serif;
 }
+.footer
+{
+    position: relative;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    height: 100px;
+    background-color:rgba(133, 134, 136, 0.411);
+}
 
-
+footer .copyright {
+ padding: 45px 30px 20px 35px;
+}
 
 
 
