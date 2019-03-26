@@ -503,14 +503,16 @@ padding: 20px;
 {
     position: relative;
     width: 100%;
-    top:0;
+    top:100%;
     bottom: 0;
     height: 100px;
     background-color:rgba(133, 134, 136, 0.411);
 }
 
 footer .copyright {
- padding: 45px 30px 20px 35px;
+    position: absolute;
+
+    padding: 45px 30px 20px 35px;
 }
 
 
@@ -641,5 +643,21 @@ footer .copyright {
     {
         width: 89%;
         margin: 148px auto;
+    }
+}
+@media screen and (max-width:1065px){
+    .contact-us 
+    { 
+        height: 100% !important;
+    }
+    .recent-product-button ul
+    {
+        width: 80%
+    }
+    .customer-pannel-text-image img
+    {
+        margin-top: -241px !important;
+        width: 200px;
+        margin-right: -128px;
     }
 }
