@@ -14,4 +14,23 @@ $(document).ready(function(){
             $('.navbar-sec').removeClass('black');
         }
     });
+
+
+    $('.category').click(function(){
+        var category = $(this).attr('id');
+         if(category == 'all'){
+            $('.itemimage,.product-grid ul li').addClass('hide');
+            setTimeout(function(){
+                $('.itemimage,.product-grid ul li').removeClass('hide');
+            }, 300);
+         }else{
+            $('.itemimage').addClass('hide');
+            setTimeout(function(){
+                $('.' + category,).removeClass('hide');
+            }, 300);
+         }
+
+    });
+
+
 });
